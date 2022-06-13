@@ -1,16 +1,10 @@
-# SpotifyGeneratePlaylist
-A simple script that takes your liked videos on Youtube, and generates a Spotify playlist based on the song in your liked videos.
+# YouTubeSpotifyAutomation
+A simple script that takes your liked videos on Youtube, and creates a Spotify playlist based on the song in your liked videos.
 
 ## Table of Contents
 * [Video](#Video)
 * [Technologies](#Technologies)
 * [Setup](#LocalSetup)
-* [ToDo](#ToDo)
-* [Troubleshooting](#Troubleshooting)
-
-## Video
-Check out the youtube video for a step by step walk through 
-[Youtube Video]
 
 ## Technologies
 * [Youtube Data API v3]
@@ -35,17 +29,7 @@ Check out the youtube video for a step by step walk through
 4) Run the File  
 `python3 create_playlist.py`   
     * you'll immediately see `Please visit this URL to authorize this application: <some long url>`
-    * click on it and log into your Google Account to collect the `authorization code`
-
-
-## ToDo
-* Tests
-* Add Error Handling
-
-## Troubleshooting
-* Spotify Oauth token expires very quickly, If you come across a `KeyError` this could
-be caused by an expired token. So just refer back to step 3 in local setup, and generate a new
-token!  
+    * click on it and log into your Google Account to collect the `authorization code` 
 
 
    [Youtube Data API v3]: <https://developers.google.com/youtube/v3>
