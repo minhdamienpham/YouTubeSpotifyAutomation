@@ -18,8 +18,7 @@ A simple script that takes your liked videos on Youtube, and creates a Spotify p
     ![alt text](images/spotify_token.png)
 
 3) Enable Oauth For Youtube and download the client_secrets.json   
-    * Ok this part is tricky but its worth it! Just follow the guide here [Set Up Youtube Oauth] ! 
-    If you are having issues check this out [Oauth Setup 2] and this one too [Oauth Setup 3] 
+    * Follow this guide [Set Up Youtube Oauth] to setup Oauth
 
 4) Run the File  
 `python3 create_playlist.py`   
